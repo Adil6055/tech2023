@@ -7,7 +7,9 @@
 # print(x)
 # ---------------------------------------
 import calendar
+<<<<<<< HEAD
 inputyear = int(input("Enter the Year you want to see calender main remove Feature 2: "))
+
 year=inputyear
 
 inputmonth =  int(input("Enter month you want to see calender of : "))
