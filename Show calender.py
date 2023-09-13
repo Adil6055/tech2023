@@ -9,11 +9,9 @@
 # ---------------------------------------
 
 import calendar
-<<<<<<< HEAD
+
 inputyear = int(input("Enter the Year you want to see calender for remove feature 1 : "))
-=======
-inputyear = int(input("Enter the Year you want to see calender for feature 1 : "))
->>>>>>> main
+
 year=inputyear
 
 inputmonth =  int(input("Enter month you want to see calender of : "))
