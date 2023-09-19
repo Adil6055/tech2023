@@ -4,22 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment Form</title>
+    <title>Payment Form</title> 
+    <link rel="script" href="java_sript.js">
 </head>
 <link rel="icon" href="../tech2023/media files/OIP.jpg">
 <body>
+
+   
+
 <a href="index.html">Home page</a>
+
 <link rel="stylesheet" href="css/CSS1.css">
+
 <form action="">
         <h1>Payment Form</h1>
         <h2>Contact Information</h2>
-        <p>Required fields are marked with *</p>
-        <p>Name * : <input type="text" name="Name" placeholder="Name" required> </p>
-        <p>Mobile * : <input type="number" placeholder="Mobile"  required > </p>
+    
+        <p>Name * : <input type="text" name="Name" placeholder="Name" > </p>
+        <p>Mobile * : <input type="number" placeholder="Mobile"   > </p>
         <fieldset>
             <legend>Gender  </legend>
-            <p>Male *  <input type="radio" name="Gender" id="Male" required> </p>
-            <p>Female * <input type="radio" name="Gender" id="Female" required>
+            <p>Male *  <input type="radio" name="Gender" id="Male" > </p>
+            <p>Female * <input type="radio" name="Gender" id="Female" >
             </p> 
         </fieldset>
 <p>
@@ -34,15 +40,20 @@
     <option value="Visa"> Visa</option>
     <option value="Mada"> Mada</option>
     <option value="Rupay Card"> Rupay card</option>
-</select></p>
+</select>
+</p>
 <p>Card Number : <input type="number" name="card_number" placeholder="Card Number" id="card_number"> </p>
 <p>Card Expiry date <input type="date" name="card_exp_date" id="card_exp_date"> </p>
 <p>Card Expiry date <input type="datetime-local" name="card_exp_datetime" id="card_exp_datetime"> </p>
 <p>CVV number <input type="number" type="password" name="CVV_code" id="CVV_code" placeholder="put CVV code"> </p>
 <p> <input type="submit" value="Paynow"> </p>
 <br>
-<button> click here</button>
-<p> <input type="reset" value="reset"> </p>
+
+<button>click here</button>
+<script src="java_sript.js"></script>
+
+<button>  reset button <input type="reset" value="reset"> </button> 
+
 <details>
     <summary> Social media </summary>
     <p> Facebook</p>
